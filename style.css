@@ -1,0 +1,36 @@
+#navbarNavAltMarkup{
+    color: whitesmoke;
+justify-content: end;
+display: inline;
+}
+#navbar{
+    background-color: black;
+}
+
+
+
+.nav-link{
+    color: white;
+    justify-content: end;
+    display: inline;
+    margin: 10px;
+}
+
+ .carousel-item {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }  
+
+ 
+  @media screen and (max-width:400px){
+    .row img{
+      width: 250px;
+      margin: 10px;
+      margin-right: 100px;
+        }
+        
+  }
